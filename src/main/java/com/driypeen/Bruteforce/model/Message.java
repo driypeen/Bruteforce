@@ -7,4 +7,5 @@ public class Message {
     private String hash;
     private int sourceTextLength;
     private String alphabet;
+    private String algorithm;
 }
