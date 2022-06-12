@@ -1,16 +1,16 @@
-package com.driypeen.users.model;
+package com.driypeen.Bruteforce.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.Set;
 
 @Entity
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name="privilege", schema = "public")
 public class Privilege {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
