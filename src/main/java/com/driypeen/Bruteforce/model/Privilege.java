@@ -24,7 +24,7 @@ import java.util.Set;
 @Table(name="privilege", schema = "public")
 public class Privilege {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long privilegeId;
 
     private String name;
